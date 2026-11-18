@@ -10,5 +10,5 @@ def individual_data(todo):
     
  
  
-def all_tasks(todos):  #give all the data from document and convert it into above dictionary object
+def all_tasks(todos): 
     return [individual_data(todo) for todo in todos ]
